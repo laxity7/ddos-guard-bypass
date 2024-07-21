@@ -1,0 +1,26 @@
+{
+    "name": "laxity7/ddos-guard-bypass",
+    "description": "DDoS-Guard Bypass",
+    "license": "MIT",
+    "homepage": "https://github.com/laxity7/ddos-guard-bypass",
+    "authors": [
+        {
+            "name": "Vlad Varlamov",
+            "email": "vlad@varlamov.dev",
+            "homepage": "https://varlamov.dev/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/laxity7/ddos-guard-bypass/issues",
+        "source": "https://github.com/laxity7/ddos-guard-bypass"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laxity7\\DdosGuardBypass\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.4|>=8.0",
+        "guzzlehttp/guzzle": "^6.0|^7.0"
+    }
+}
